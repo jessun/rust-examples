@@ -1,3 +1,5 @@
+mod basics;
+
 fn main() {
-    println!("{}", std::u16::MAX);
+    println!("Hello, Ruet Examples")
 }
