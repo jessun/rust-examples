@@ -22,3 +22,21 @@ fn show_types() {
     let _c = [3; 5];
     println!("_c is {:?}", _c);
 }
+
+#[test]
+fn _vecotrs() {
+    let mut i32_vec = Vec::<i32>::new();
+    i32_vec.push(1);
+    i32_vec.push(2);
+    i32_vec.push(3);
+
+    let mut float_vec = Vec::new();
+    float_vec.push(1.3);
+    float_vec.push(1.4);
+    float_vec.push(1.5);
+
+    let string_vec = vec![String::from("Hello"), String::from("World")];
+    for word in string_vec.iter() {
+        println!("{}", word);
+    }
+}
