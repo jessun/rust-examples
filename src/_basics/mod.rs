@@ -1,2 +1,2 @@
 mod _generic_types;
-mod types;
+mod _types;
